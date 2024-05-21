@@ -1,0 +1,47 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+}
+#navbar{
+    height:60px;
+    background-color: #0f1111;
+
+}
+button{
+    background-color:#f08804;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+#one{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    background-color: rgba(150,88,04,0.5);
+}
+#two{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    background-color: rgba(15,180,40,0.8);
+}
+#three{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    background-color: rgba(200,8,100,0.75);
+    
+}
+main{
+    height:750px;
+}
+footer{
+    text-align: center;
+    background-color: #0f1111;
+}

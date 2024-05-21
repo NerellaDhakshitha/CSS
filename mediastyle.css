@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: cornflowerblue;
+}
+@media(width:600px){
+    div{
+        background-color: red;    /*edaina device width 600px will be there at that time div background color will be red*/
+        
+    }
+}
+@media(min-width:600px){
+    div{
+        background-color: grey; /*edaina device width 600 kante ekuva vunte div background color grey color*/
+    }
+}
+@media(max-width:600px){
+    div{
+        background-color:cornsilk; /*edaina device width 600 kante takkuva vunte div background color grey color*/
+    }
+}

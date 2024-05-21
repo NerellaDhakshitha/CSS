@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>back Ground </title>
+        <style>
+            div{
+                height: 100px;
+                width: 100px;
+                display:inline-block;
+            }
+            #one{
+                background-image: url(sky.jpg);
+                background-size: cover;
+            }
+            #two{
+                background-image: url(guitar.jpg);
+                background-size: contain;
+            }
+            #three{
+                background-image: url(guitar.jpg);
+                background-size: contain;
+                background-repeat: no repeat;
+            }
+            #two{
+                background-image: url(guitar.jpg);
+                background-size: auto;  /*enlarge the photo*/
+            }
+
+        </style>
+    </head>
+    <body>
+        <div  id="one"style="background-color: pink;">Box 1</div>
+        <div id="two" style="background-color: orange;">Box 2</div>
+        <div id="three"style="background-color:yellow;">Box 3</div>
+        <div id="four"style="background-color:rgb(146, 16, 16);">Box 4</div>
+
+    </body>
+</html>

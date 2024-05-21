@@ -1,0 +1,17 @@
+h1{
+    color:antiquewhite;                /*element selector*/
+}  
+
+button{
+    color:#ffAABB;
+}
+body{
+    background-color:rgb(11, 124, 109);
+}
+*{
+    color:#ffAABB;                   /*universal selector*/
+}
+/*when the element selector and universal selector both are there ,element selector has more priority*/
+#hello{
+    color:rgb(44, 19, 19);
+}

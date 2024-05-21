@@ -1,0 +1,43 @@
+h1{
+    height:150px;
+    width:100px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color:antiquewhite;
+    background-color: black;
+    color:brown;
+    text-align: center;
+    padding:25px;
+    margin-top: 50px;
+    margin-bottom:30px;
+   
+}
+div{
+    height:150px;
+    width:100px;
+    height:150px;
+    width:100px;
+    border-width:3px;
+    border-style: dashed;
+    border-color:antiquewhite;
+    background-color: black;
+    color:brown;
+    text-align: center;
+    border-style: dotted;
+    border-color:black;
+    background-color:pink;
+    color:brown;
+    text-align: right;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin:25px;
+}
+p{
+    border:2px solid black;
+    border-radius: 15px;
+    padding:5px 2px 3px 4px;
+    margin:10px 2px 3px 4px;
+
+}

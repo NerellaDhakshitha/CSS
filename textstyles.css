@@ -1,0 +1,22 @@
+#one{
+    text-align: center;
+    text-decoration: red underline;
+}
+#two{
+    text-decoration:overline;
+}
+.three{
+    font-weight: 900;
+}
+#four{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#five{
+    font-size: 9px;
+}
+#six{
+    line-height: 20px;
+}
+#seven{
+    text-transform: capitalize;
+}

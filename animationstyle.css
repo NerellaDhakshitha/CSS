@@ -1,0 +1,65 @@
+#one{
+    height: 200px;
+    width:200px;
+    background-color: pink;
+    position: absolute;
+    top:100px;
+    left:100px;
+    animation-name: coloranimate;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+   /* animation-timing-function: ;
+    animation-direction: ;*/
+}
+@keyframes coloranimate{
+    from {background-color: pink;}
+    to {background-color: orange;}
+}
+#two{
+    height: 200px;
+    width:200px;
+    background-color: pink;
+    position: absolute;
+    top:400px;
+    left:200px;
+    /*animation-name: animation;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+    animation:animation 2s 0s infinite alternate;
+}
+@keyframes animation{
+    from {
+        left:0px;
+        background-color: yellow;
+    } 
+    to { 
+        left:200px;
+        background-color: brown;
+    }
+}
+#three{
+    height: 200px;
+    width:200px;
+    background-color: red;
+    position: absolute;
+    bottom:2px;
+    left:600px;
+    animation:percent 2s 1s infinite reverse;
+}
+@keyframes percent{
+    0%{
+        left:200px;
+        background-color: yellow;
+    } 
+    50%
+    {
+        background-color: orangered;
+    }
+    100%{ 
+        left:600px;
+        background-color: brown;
+    }
+}
